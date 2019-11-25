@@ -11,7 +11,6 @@
 * A JWT payload can contain things like user ID so that when the client again sends the JWT, you can be sure that it is issued by you, and you can see to whom it was issued.
 
 ### Structure of JWT 
-
 * [`header.payload.signature`]
 
 * An important point to remember about JWT is that the information in the payload of the JWT is visible to everyone. So we should not pass any sensitive information like passwords in the payload. 
